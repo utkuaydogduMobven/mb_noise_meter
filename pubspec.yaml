@@ -18,7 +18,7 @@ dev_dependencies:
   mb_audio_streamer:
     git:
       url: git@github.com:utkuaydogduMobven/mb_audio_streamer.git
-      ref: v1.0.0
+      ref: v1.0.1
   
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
