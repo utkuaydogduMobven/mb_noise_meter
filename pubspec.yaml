@@ -1,7 +1,7 @@
 name: mb_noise_meter
 description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+version: 1.0.2
+homepage: "https://github.com/utkuaydogduMobven/mb_noise_meter"
 
 environment:
   sdk: ^3.5.3
@@ -18,8 +18,7 @@ dev_dependencies:
   mb_audio_streamer:
     git:
       url: git@github.com:utkuaydogduMobven/mb_audio_streamer.git
-      ref: v1.0.1
-  
+      ref: v1.0.2
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
