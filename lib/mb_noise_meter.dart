@@ -51,6 +51,7 @@ class MBNoiseMeter {
   ///
   /// Remember to obtain permission to use the microphone **BEFORE**
   /// using this stream.
-  Stream<MBNoiseReading> get noise => _stream ??=
-      MBAudioStreamer().audioStream.map((buffer) => MBNoiseReading(buffer));
+  Stream<MBNoiseReading> get noise => _stream ??= MBAudioStreamer()
+      .getAudioStream()
+      .map((buffer) => MBNoiseReading(buffer));
 }
